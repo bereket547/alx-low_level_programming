@@ -16,7 +16,7 @@ int a;
 for (a = 0 ; a < 10 ; a++)
 putchar(a % 10 + '0');
 
-for (ch = 'a' ; ch >= 'f' ; ch++)
+for (ch = 'a' ; ch <= 'f' ; ch++)
 putchar(ch);
 
 putchar('\n');
