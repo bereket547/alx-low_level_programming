@@ -8,7 +8,7 @@
  * Return: Always 1(Success)
  */
 
-int main(void)
+char main(void)
 {
 char x = '-';
 
