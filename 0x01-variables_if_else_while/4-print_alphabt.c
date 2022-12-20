@@ -15,9 +15,9 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 if (ch == 'e')
-ch = ch++;
+ch = 'f';
 if (ch == 'q')
-ch = ch++;
+ch = 'r';
 putchar(ch);
 }
 
