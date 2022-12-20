@@ -11,6 +11,6 @@
 int main(void)
 {
 
-printf("and that piece of ar-is-seful\" - Dora Korpar, 2015%c10%c19\n", x);
+printf("and that piece of uful\" - Dora Korpar, 2015%c10%c19\n", x);
 return (0);
 }
