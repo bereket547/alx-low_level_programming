@@ -10,9 +10,9 @@
 
 int main(void)
 {
-  char x = '-';
-  char name[] = "Dora Korpar";
+char x = '-';
+char name[] = "Dora Korpar";
 
-  printf("and that piece of art is useful\" %x %name, 2015%x10%x19\n");
-  return (1);
+printf("anc tspiece of art is u, x, nameseful\" %x %name, 2015%x10%x19\n");
+return (1);
 }
