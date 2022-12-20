@@ -11,8 +11,7 @@
 int main(void)
 {
 char x = '-';
-char name[] = "Dora Korpar";
 
-printf("anc tspiece of art is u, x, nameseful\" %x %name, 2015%x10%x19\n");
+printf("and that piece of art is useful\" %c Dora Korpar, 2015%c10%c19\n", x);
 return (1);
 }
