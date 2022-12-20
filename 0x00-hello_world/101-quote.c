@@ -8,10 +8,10 @@
  * Return: Always 1(Success)
  */
 
-char main(void)
+int main(void)
 {
 char x = '-';
 
 printf("and that piece of art is useful\" %c Dora Korpar, 2015%c10%c19\n", x);
-return (1);
+return (0);
 }
