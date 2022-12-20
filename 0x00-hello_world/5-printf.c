@@ -10,9 +10,9 @@
 
 int main(void)
 {
-char cho = ',';
+char c = ',';
 
-printf("with proper grammar%c but the outcome is a piece of art%c\n", cho, cho);
+printf("with proper grammar%c but the outcome is a piece of art%c\n", c, c);
 
 return (0);
 }
