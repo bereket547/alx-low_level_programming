@@ -1,10 +1,7 @@
 #include<stdio.h>
-/* prints given character using puts */
-int main(void)
+int main(void) /* prints given character using puts */
 {
-char Mystr[] = "\"Programming is like building a multilingual puzzle";
-
-puts(Mystr);
-
-return 0;
+	char Mystr[] = "\"Programming is like building a multilingual puzzle";
+	puts(Mystr);
+	return (0);
 }
