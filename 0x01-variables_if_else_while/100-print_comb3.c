@@ -10,18 +10,21 @@
 
 int main(void)
 {
-int a, b;
+int a, b, c;
+c = 0;
 
-for (a = 1 ; a < 10 ; a++)
+for (a = c ; a < 10 ; a++)
 {
-  for(b = 0 ; b < 9 ; b++)
-    {
+for (b = a + 1 ; b < 9 ; b++)
+{
+putchar(a % 10 + '0');
 putchar(b % 10 + '0');
- putchar(a % 10 + '0');
- putchar(',');
-}
+if (a == 8 && b == 9)
+break;
+putchar(',');
 putchar(' ');
-b = b + 1;
+}
+c = c + 1;
 }
 
 putchar('\n');
