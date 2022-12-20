@@ -1,15 +1,18 @@
-include<stdio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
- *
- * Description: 'the program prints using printf'
+ *  
+ * Description: 'program prints the given character and sentence'
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+char cho = ',';
+
+printf("with proper grammar%c but the outcome is a piece of art%c\n" , cho , cho);
+
 return (0);
 }
