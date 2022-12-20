@@ -10,8 +10,7 @@
 
 int main(void)
 {
-char x = '-';
 
-printf("and that piece of art is useful\" %c Dora Korpar, 2015%c10%c19\n", x);
+printf("and that piece of ar-is-seful\" - Dora Korpar, 2015%c10%c19\n", x);
 return (0);
 }
