@@ -10,23 +10,23 @@
 
 int print_last_digit(int n)
 {
-int z;
+int c;
 if (n > 0)
 {
-z = n % 10;
-_putchar(z);
-return (z);
+c = n % 10;
+_putchar(c);
+return (c);
 }
 else if (n < 0)
 {
-z = n * -1;
-z = z % 10;
-_putchar(z);
+c = n * -1;
+c = c % 10;
+_putchar(c);
 return (0);
 }
 else
 {
-_putchar(z);
+_putchar(c);
 return (0);
 }
 
