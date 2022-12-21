@@ -10,13 +10,13 @@
 
 int add(int a, int b)
 {
+int x, y;
 if ((a + b) > -10 && (a + b) < 10)
-_putchar((a + b) + '0');
+return ((a + b));
 else
 {
-_putchar(((a + b) / 10) + '0');
-_putchar(((a + b) % 10) + '0');
+x = ((a + b) / 10);
+y = ((a + b) % 10);
 }
-_putchar('\n');
-return ();
+return (xy);
 }
