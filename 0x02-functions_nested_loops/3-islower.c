@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- *
+ * @c: single letter input
  * Description: 'print if the letter is lower'
  *
  * Return: Always 0 (Success)
