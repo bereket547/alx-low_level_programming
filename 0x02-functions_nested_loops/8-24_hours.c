@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-void jack_bauer(void n)
+void jack_bauer(void)
 {
 int a, b, c, d;
 for (a = 0 ; a < 3 ; a++)
