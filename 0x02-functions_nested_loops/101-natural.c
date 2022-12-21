@@ -3,15 +3,14 @@
 
 /**
  * main - Entry point
- * @n: input number
- * Description: 'print summation of numbers divisible by 3'
+ * Description: 'print summation of numbers divisible by 3 and 5'
  *
  * Return: Always zero(Success)
  */
 
 int main(void)
 {
-int x, sum;
+double int x, sum;
 sum = 0;
 
 for (x = 0 ; x <= 1024 ; x++)
