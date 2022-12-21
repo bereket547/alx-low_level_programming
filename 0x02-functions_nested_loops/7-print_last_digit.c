@@ -33,6 +33,4 @@ return (z);
 
 _putchar(' ');
 
-return (0);
-
 }
