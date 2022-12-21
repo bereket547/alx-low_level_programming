@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Entry point
- * 
+ *
  * Description: 'print digit of a 24 hour'
  *
  * Return: Always 0 (Success)
