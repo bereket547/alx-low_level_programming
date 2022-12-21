@@ -2,7 +2,8 @@
 
 /**
  * add - Entry point
- * @a , @b : input numbers
+ * @a: input numbers 
+ * @b: input numbers
  * Description: 'print addition of two numbers'
  *
  * Return: Always 0 (Success)
