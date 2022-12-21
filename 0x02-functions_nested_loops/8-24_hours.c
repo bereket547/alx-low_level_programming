@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Entry point
- * @n: input number
+ * 
  * Description: 'print digit of a 24 hour'
  *
  * Return: Always 0 (Success)
@@ -18,7 +18,7 @@ for (b = 0 ; b < 60 ; b++)
 _putchar((a / 10) + '0');
 _putchar((a % 10) + '0');
 _putchar(':');
-_putchar((b /10) + '0');
+_putchar((b / 10) + '0');
 _putchar((b % 10) + '0');
 _putchar('\n');
 }
