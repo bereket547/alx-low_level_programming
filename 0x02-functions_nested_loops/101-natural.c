@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "main.h"
+0;276;0c#include "main.h"
 
 /**
  * main - Entry point
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-longint x, sum;
+long int x, sum;
 sum = 0;
 
 for (x = 0 ; x <= 1024 ; x++)
