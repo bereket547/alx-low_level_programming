@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int _putchar()
+char _putchar()
 {
 char ch[] = "_putchar" ;
 putchar(ch);
