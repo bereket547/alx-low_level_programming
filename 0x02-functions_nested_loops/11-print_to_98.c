@@ -29,9 +29,9 @@ for ( ; n <= 98 ; n++)
 printf("%d", n);
 if (n == 98)
 break;
-_putchar(',');
-_putchar(' ');
+printf(",");
+printf(" ");
 }
 }
+printf("\n");
 }
-   
