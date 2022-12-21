@@ -10,24 +10,25 @@
 
 int print_last_digit(int n)
 {
-int c;
+int z;
 if (n > 0)
 {
-c = n % 10;
-_putchar(c);
-return (c);
+z = n % 10;
+_putchar(z + '0');
+return (z);
 }
 else if (n < 0)
 {
-c = n * -1;
-c = c % 10;
-_putchar(c);
-return (0);
+z = (-1 * n);
+z = n % 10;
+_putchar(z + '0');
+return (z);
 }
 else
 {
-_putchar(c);
-return (0);
+z = n % 10;
+_putchar(z + '0');
+return (z);
 }
 
 _putchar(' ');
