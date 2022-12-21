@@ -10,9 +10,17 @@
 
 int print_last_digit(int n)
 {
-int z = n % 10;
-if (z > 0 || z < 0)
+if (n > 0)
+{
+z = n % 10;
 return (z);
+}
+else if (n < 0)
+{
+z = n * -1;
+z = z % 10;
+return (0);
+}
 else
 return (0);
 
