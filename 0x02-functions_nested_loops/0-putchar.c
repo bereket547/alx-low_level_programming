@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+char main()
 {
 _putchar();
 putchar('\n');
