@@ -24,7 +24,7 @@ else
 {
 for ( ; n >= 98 ; n--)
 {
-prinf("%d", n);
+printf("%d", n);
 _putchar(',');
 _putchar(' ');
 }
