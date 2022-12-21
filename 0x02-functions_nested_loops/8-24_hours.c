@@ -25,6 +25,8 @@ _putchar(':');
 _putchar(c + '0');
 _putchar(d + '0');
 _putchar('\n');
+if (c == 5 && d == 9)
+break;
 }
 }
 }
