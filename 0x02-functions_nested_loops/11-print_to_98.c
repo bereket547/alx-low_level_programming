@@ -15,16 +15,16 @@ if (n < 98)
 {
 for ( ; n <= 98 ; n++)
 {
-printf(n);
-printf(',');
-printf(' ');
+printf("%d", n);
+printf(",");
+printf(" ");
 }
 }
 else
 {
 for ( ; n >= 98 ; n--)
 {
-prinf(n);
+prinf("%d", n);
 _putchar(',');
 _putchar(' ');
 }
