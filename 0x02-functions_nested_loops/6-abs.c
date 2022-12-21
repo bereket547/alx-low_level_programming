@@ -2,8 +2,8 @@
 
 /**
  * _abs - Entry point
- *
- * Description: 'print + if it is positive, - for negative else 0'
+ * @n: input number
+ * Description: 'print + of any integer'
  *
  * Return: Always 0 (Success)
  */
