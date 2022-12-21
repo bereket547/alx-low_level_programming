@@ -10,19 +10,23 @@
 
 int main(void)
 {
-int a, b, c;
+int a, b, c, d;
 c = 0;
 
-for (a = c ; a < 9 ; a++)
+for (a = c ; a < 8 ; a++)
 {
-for (b = a + 1 ; b < 10 ; b++)
+for (b = a + 1 ; b < 9 ; b++)
+{
+for (d = b + 1 ; d < 10 ; d++)
 {
 putchar(a % 10 + '0');
 putchar(b % 10 + '0');
-if (a == 8 && b == 9)
+putchar(d % 10 + '0');
+if (a == 7 && b == 8)
 break;
 putchar(',');
 putchar(' ');
+}
 }
 c = c + 1;
 }
