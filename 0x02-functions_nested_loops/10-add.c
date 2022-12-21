@@ -10,13 +10,5 @@
 
 int add(int a, int b)
 {
-int x, y;
-if ((a + b) > -10 && (a + b) < 10)
-return ((a + b));
-else
-{
-x = ((a + b) / 10);
-y = ((a + b) % 10);
-}
-return (xy);
+return (a + b);
 }
