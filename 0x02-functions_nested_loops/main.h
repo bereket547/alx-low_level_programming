@@ -1,9 +1,6 @@
-#include<stdio.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
-char _putchar()
-{
-char ch[] = "_putchar" ;
-putchar(ch);
+char _putchar(char c);
 
-return (0);
-}
+#endif

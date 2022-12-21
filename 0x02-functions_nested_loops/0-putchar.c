@@ -9,10 +9,12 @@
  * Return: Always 0 (Success)
  */
 
-char main()
+int main(void)
 {
-_putchar();
-putchar('\n');
+char ch[] = "_putchar";
+
+_putchar(ch);
+_putchar('\n');
 
 return (0);
 }
