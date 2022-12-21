@@ -14,16 +14,21 @@ int z;
 if (n > 0)
 {
 z = n % 10;
+_putchar(z);
 return (z);
 }
 else if (n < 0)
 {
 z = n * -1;
 z = z % 10;
+_putchar(z);
 return (0);
 }
 else
+{
+_putchar(z);
 return (0);
+}
 
 _putchar(' ');
 
