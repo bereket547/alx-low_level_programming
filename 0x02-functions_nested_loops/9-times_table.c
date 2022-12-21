@@ -17,6 +17,11 @@ for (b = 0 ; b < 10 ; b++)
 c = a * b;
 if (c < 10)
 {
+if (b == 9)
+{
+_putchar(c + '0');
+break;
+}
 _putchar(c + '0');
 _putchar(',');
 _putchar(' ');
@@ -24,6 +29,11 @@ _putchar(' ');
 }
 else
 {
+if (b == 9)
+_putchar((c / 10) + '0');
+_putchar((c % 10) + '0');
+break;
+}
 _putchar((c / 10) + '0');
 _putchar((c % 10) + '0');
 _putchar(',');
