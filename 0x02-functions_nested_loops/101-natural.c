@@ -10,7 +10,7 @@
 
 int main(void)
 {
-doubleint x, sum;
+double x, sum;
 sum = 0;
 
 for (x = 0 ; x <= 1024 ; x++)
