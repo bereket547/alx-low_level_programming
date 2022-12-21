@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Description: 'print _putchar'
+ * Description: 'print lower case alphabets'
  *
  * Return: Always 0 (Success)
  */
