@@ -2,7 +2,7 @@
 
 /**
  * add - Entry point
- * @a: input numbers 
+ * @a: input numbers
  * @b: input numbers
  * Description: 'print addition of two numbers'
  *
