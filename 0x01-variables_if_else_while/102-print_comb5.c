@@ -20,7 +20,7 @@ for (d = 0 ; d < 10 ; d++)
 {
 for (e = 0 ; e < 10 ; e++)
 {
-if ((a + e) == (b + d)) && (a * e) == (b * d))
+if (((a + e) == (b + d)) && ((a * e) == (b * d)))
 e = e + 1;
 putchar(a % 10 + '0');
 putchar(b % 10 + '0');
