@@ -11,7 +11,7 @@
 
 int main()
 {
-_putchar(hi);
+_putchar();
 putchar('\n');
 
 return (0);
