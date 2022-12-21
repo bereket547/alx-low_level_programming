@@ -19,8 +19,8 @@ return (z);
 }
 else if (n < 0)
 {
-z = (-1 * n);
 z = n % 10;
+z = -1 * z;
 _putchar(z + '0');
 return (z);
 }
