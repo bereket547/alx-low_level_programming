@@ -35,6 +35,7 @@ _putchar(' ');
 _putchar(' ');
 }
 }
+
 if (c >= 10)
 {
 if (b == n)
@@ -50,6 +51,8 @@ _putchar((c % 10) + '0');
 _putchar(',');
 _putchar(' ');
 }
+}
+
 }
 }
 _putchar('\n');
