@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_diagonal - print a \
+ * print_diagonal - print a backlash
  * @n: length of the diagonal
  * Description: print a diagonal
  *
@@ -12,7 +12,7 @@ void print_diagonal(int n)
 {
 int a, b;
 
-if (n == 0 || n < 0)
+if (n <= 0)
 _putchar('\n');
 else
 {
