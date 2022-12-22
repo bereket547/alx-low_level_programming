@@ -44,7 +44,7 @@ _putchar(' ');
 if (c > 100)
 {
 _putchar((c / 100) + '0');
-_putchar((c / 10) + '0');
+_putchar(((c % 100) / 10) + '0');
 _putchar((c % 10) + '0');
 if (b != n)
 {
