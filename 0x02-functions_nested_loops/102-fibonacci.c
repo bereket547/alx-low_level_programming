@@ -16,7 +16,7 @@ for (x = 0 ; x < 50 ; x++)
 {
 a = sum + new;
 printf("%ld", a);
-if (x == 50)
+if (x == 49)
 break;
 printf(", ");
 sum = new;
