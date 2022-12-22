@@ -10,12 +10,12 @@
 
 int main(void)
 {
-long int x, a, sum, new = 1;
+unsigned long int x, a, sum, new = 1;
 sum = 0;
 for (x = 0 ; x < 98 ; x++)
 {
 a = sum + new;
-printf("%ld", a);
+printf("%lu", a);
 if (x == 97)
 break;
 printf(", ");
