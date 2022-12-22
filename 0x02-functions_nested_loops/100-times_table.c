@@ -6,7 +6,7 @@
  * Description: 'print times table of 9'
  *
  */
-void print_timestable(int n)
+void print_times_table(int n)
 {
 int a, b, c, i;
 if (n < 15 || n > 0)
