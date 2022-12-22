@@ -16,7 +16,7 @@ for (x = 0 ; x < 50 ; x++)
 {
 a = sum + new;
 if (a < 4000000 && ((a % 2) == 0))
-even = even + a;  
+even = even + a;
 sum = new;
 new = a;
 }
