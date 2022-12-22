@@ -10,16 +10,17 @@
 
 int main(void)
 {
-int x, sum;
+  int x, a, sum, new = 1;
 sum = 0;
-
-for (x = 1 ; x <= 50 ; x++)
+for (x = 0 ; x < 50 ; x++)
 {
-sum = sum + x;
+a = sum + new;
 printf("%d", sum);
 if (x == 50)
 break;
 printf(", ");
+sum = new;
+new = a;
 }
 printf("\n");
 return (0);
