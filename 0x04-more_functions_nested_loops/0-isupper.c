@@ -8,11 +8,11 @@
  * Return: Always zero
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 int a, x = 0;
 
-for (a = 'A' ; a < 'Z' ; a++)
+for (a = 'A' ; a <= 'Z' ; a++)
 {
 if (a == 'c')
 {
