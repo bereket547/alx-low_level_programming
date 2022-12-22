@@ -8,7 +8,7 @@
  */
 void print_timestable(int n)
 {
-int a, b, c, i = 0;
+int a, b, c, i;
 if (n < 15 || n > 0)
 {
 for (a = 0 ; a <= n ; a++)
@@ -22,8 +22,10 @@ _putchar(c + '0');
 if (b != n)
 {
 _putchar(',');
-for(i ; i < 3 ; i++)
+for(i = 0 ; i < 3 ; i++)
+{
 _putchar(' ');
+}
 }
 }
 if (c >= 10 && c < 100)
@@ -33,8 +35,10 @@ _putchar((c % 10) + '0');
 if (b != n)
 {
 _putchar(',');
-for (i ; i < 2 ; i++)
+for (i = 0 ; i < 2 ; i++)
+{
 _putchar(' ');
+}
 }
 }
 if (c > 100)
