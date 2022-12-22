@@ -29,11 +29,9 @@ else
 {
 _putchar(c + '0');
 _putchar(',');
-_putchar(' ');
-_putchar(' ');
+_putchar("    ");
 }
 }
-
 if (c >= 10)
 {
 if (b == n)
@@ -47,12 +45,13 @@ else
 _putchar((c / 10) + '0');
 _putchar((c % 10) + '0');
 _putchar(',');
-_putchar(' ');
+_putchar("    ");
 }
 }
 
 }
-}
 _putchar('\n');
+}
+
 }
 }
