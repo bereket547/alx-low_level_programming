@@ -15,7 +15,7 @@ sum = 0;
 for (x = 0 ; x < 50 ; x++)
 {
 a = sum + new;
-printf("%d", sum);
+printf("%d", a);
 if (x == 50)
 break;
 printf(", ");
