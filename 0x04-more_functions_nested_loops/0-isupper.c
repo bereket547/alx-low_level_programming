@@ -14,7 +14,7 @@ int a, x = 0;
 
 for (a = 'A' ; a <= 'Z' ; a++)
 {
-if (a == 'c')
+if (a == c)
 {
 x = x + 1;
 return (1);
