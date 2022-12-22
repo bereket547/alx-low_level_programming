@@ -9,9 +9,9 @@
  * Return: no return
  */
 
-void main(void)
+int main(void)
 {
-int a, b;
+int a;
 
 for (a = 1 ; a <= 100 ; a++)
 {
@@ -25,5 +25,7 @@ else
 printf("%d", a);
 printf(" ");
 }
-_putchar('\n');
+printf("\n");
+
+return (0);
 }
