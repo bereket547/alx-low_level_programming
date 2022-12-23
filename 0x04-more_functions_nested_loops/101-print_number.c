@@ -12,17 +12,30 @@
 void print_number(int n)
 {
 
-unsigned int k = n;
 if (n < 0)
 {
 n = n * -1;
-k = n;
-_putchar('-');
+putchar('-');
 }
-k /= 10;
-if (k != 0)
-print_number(k);
-_putchar((unsigned int) n % 10 + '0');
-_putchar('\n');
-return (0);
+if (n < 10 && n >= 0)
+putchar(n + '0');
+if ((n >= 10) && (n <= 99))
+{
+putchar((n / 10) + '0');
+putchar((n % 10) + '0');
+}
+if ((n >= 100) && (n <= 999))
+{
+putchar((n / 100) + '0');
+putchar(((n % 100) / 10) + '0');
+putchar(((n % 100) % 10) + '0');
+}
+if ((n >= 1000) && (n <= 9999))
+{
+putchar((n / 1000) + '0');
+putchar(((n % 1000) / 100) + '0');
+putchar((((n % 1000) % 100) / 10) + '0');
+putchar((((n % 1000) % 100) % 10) + '0');
+}
+putchar('\n');
 }
