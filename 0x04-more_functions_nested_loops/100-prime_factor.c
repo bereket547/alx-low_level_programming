@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<math.h>
 /**
  * main - print prime numbers
  * 
@@ -10,16 +10,18 @@
 
 int main(void)
 {
-long greater, a, b;
+long int greater, a, b;
 double square;
 
 a = 612852475143;
-square = a * a;
+square = sqrt(a);
 
 for(b = 1 ; b <= square ; b++)
 {
 if ((a % b) == 0)
+{
 greater = a / b;
+}
 }
 printf("%ld\n", greater);
 return (0);
