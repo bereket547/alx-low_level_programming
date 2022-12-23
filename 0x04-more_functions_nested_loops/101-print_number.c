@@ -1,29 +1,41 @@
 #include<stdio.h>
-#include<math.h>
+#include"main.h"
 
 /**
- * main - print prime numbers
- *
- * Description: print prime numbers of 612852475143
+ * print_number - print numbers
+ * @n: input number
+ * Description: print integers
  *
  * Return: always return 0
  */
 
-int main(void)
+int print_number(int n)
 {
-long int greater, a, b;
-double square;
-
-a = 612852475143;
-square = sqrt(a);
-
-for(b = 1 ; b <= square ; b++)
+if (n < 0)
 {
-if ((a % b) == 0)
-{
-greater = a / b;
+n = n * -1;
+_putchar('-');
 }
+if (n < 10)
+_putchar(n + '0');
+if ((n >= 10 && n <= 99) || (n >= -99 && n <= -10))
+{
+_putchar((n / 10) + '0');
+_putchar((n % 10) + '0');
 }
-printf("%ld\n", greater);
+if ((n >= 100 && n <= 999) || (n >= -999 && n <= -100))
+{
+_putchar((n / 100) + '0');
+_putchar(((n % 100) / 10) + '0');
+_putchar(((n % 100) % 10) + '0');
+}  
+if ((n >= 1000 && n <= 9999) || (n >= -9999 && n <= -1000))
+{
+_putchar((n / 1000) + '0');
+_putchar(((n % 1000) / 100) + '0');
+_putchar((((n % 1000) % 100) / 10) + '0');
+_putchar((((n % 1000) % 100) % 10) + '0');
+}
+_putchar('\n');
 return (0);
 }
