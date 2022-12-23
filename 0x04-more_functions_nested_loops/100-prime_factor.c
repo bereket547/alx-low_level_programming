@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<math.h>
+
 /**
  * main - print prime numbers
- * 
+ *
  * Description: print prime numbers of 612852475143
  *
  * Return: always return 0
