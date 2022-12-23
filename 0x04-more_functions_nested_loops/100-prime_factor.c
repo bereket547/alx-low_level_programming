@@ -10,7 +10,8 @@
 
 int main(void)
 {
-long int square, greater, a, b;
+long greater, a, b;
+double square;
 
 a = 612852475143;
 square = a * a;
