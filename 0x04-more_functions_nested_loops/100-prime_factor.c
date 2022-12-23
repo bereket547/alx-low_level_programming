@@ -5,12 +5,12 @@
  * 
  * Description: print prime numbers of 612852475143
  *
- * Return: no return
+ * Return: always return 0
  */
 
 int main(void)
 {
-long greater, a, b;
+long int greater, a, b;
 double square
   
 a = 612852475143;
