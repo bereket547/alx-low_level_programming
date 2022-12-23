@@ -8,7 +8,7 @@
  * Return: always return 0
  */
 
-int print_number(int n)
+void print_number(int n)
 {
 if (n < 0)
 {
