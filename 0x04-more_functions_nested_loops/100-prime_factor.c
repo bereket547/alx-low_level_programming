@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 
 /**
  * main - print prime numbers
@@ -15,7 +14,7 @@ long greater, a, b;
 double square
   
 a = 612852475143;
-square = sqrt(a);
+square = a * a;
 
 for(b = 1 ; b <= square ; b++)
 {
