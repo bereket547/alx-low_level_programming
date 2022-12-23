@@ -11,30 +11,32 @@
 void print_number(int n)
 {
 
+unsigned int k = n;
 if (n < 0)
 {
 n = n * -1;
+k = n;
 _putchar('-');
 }
-if (n < 10 && n >= 0)
-_putchar(n + '0');
-if ((n >= 10) && (n <= 99))
+if (k < 10 && k >= 0)
+_putchar(k + '0');
+if ((k >= 10) && (k <= 99))
 {
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
+_putchar((k / 10) + '0');
+_putchar((k % 10) + '0');
 }
-if ((n >= 100) && (n <= 999))
+if ((k >= 100) && (k <= 999))
 {
-_putchar((n / 100) + '0');
-_putchar(((n % 100) / 10) + '0');
-_putchar(((n % 100) % 10) + '0');
+_putchar((k / 100) + '0');
+_putchar(((k % 100) / 10) + '0');
+_putchar(((k % 100) % 10) + '0');
 }  
-if ((n >= 1000) && (n <= 9999))
+if ((k >= 1000) && (k <= 9999))
 {
-_putchar((n / 1000) + '0');
-_putchar(((n % 1000) / 100) + '0');
-_putchar((((n % 1000) % 100) / 10) + '0');
-_putchar((((n % 1000) % 100) % 10) + '0');
+_putchar((k / 1000) + '0');
+_putchar(((k % 1000) / 100) + '0');
+_putchar((((k % 1000) % 100) / 10) + '0');
+_putchar((((k % 1000) % 100) % 10) + '0');
 }
 _putchar('\n');
 return (0);
