@@ -9,7 +9,7 @@
  * Return: no return
  */
 
-void main(void)
+int main(void)
 {
 long greater, a, b;
 double square
@@ -22,5 +22,6 @@ for(b = 1 ; b <= square ; b++)
 if ((a % b) == 0)
 greater = a / b;
 }
-printf("%ld", greater);
+printf("%ld\n", greater);
+return (0);
 }
